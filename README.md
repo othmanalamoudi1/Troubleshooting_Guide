@@ -9,4 +9,25 @@ Often, employees are confident that they are entering the correct username and p
 
 - Check Domain Usage: If the account is not locked, the next common issue is users inadvertently logging into a different domain. For example, in Providence Health and Services, we had multiple domains for different states (Washington, Oregon, South California, North California, and Texas). Occasionally, the computer login page displays the incorrect domain for certain employees. In such cases, I advise them to input their username as "domainname/their username" in the Username section. This solution resolves the majority of login issues.
 
-- In rare instances, I have come across situations where employees are unable to log in due to the CAPS LOCK and NUM LOCK being activated. I always remind them that, for security purposes, the login system is case-sensitive. Therefore, it is essential to ensure that both the CAPS LOCK and NUM LOCK keys are in the correct state while entering their login credentials.
+- Check CAPS LOCK and NUM LOCK: In rare instances, I have come across situations where employees are unable to log in due to the CAPS LOCK and NUM LOCK being activated. I always remind them that, for security purposes, the login system is case-sensitive. Therefore, it is essential to ensure that both the CAPS LOCK and NUM LOCK keys are in the correct state while entering their login credentials.
+## Issue: Employee unable to login to their VM remotely from their personal devices.
+
+
+To resolve this problem, I follow these steps:
+
+- Inquire About Previous Access:
+
+    I start by asking the employee if they have ever been able to log in remotely before. This helps determine whether the issue is recent or if they have never had remote access.
+
+  - If they have never had remote access, I proceed to check Active Directory to verify if they have been granted the privilege to log in remotely. If not, I advise them to contact their manager and request the necessary permissions.
+
+  - If they previously had remote access and are now facing issues, I proceed with the following steps.
+
+- Check Citrix Workspace Installation:
+
+  I confirm that Citrix Workspace is installed on their personal device. If not, I guide them through the installation process or provide the necessary resources for installation.
+
+- Verify Correct Site and Domain:
+
+  Next, I ensure that they are accessing the correct site for their domain. If our organization has multiple domains, it's essential to use the appropriate one for their login.
+
